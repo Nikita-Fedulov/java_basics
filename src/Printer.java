@@ -2,7 +2,7 @@ public class Printer {
     private String queue ="";
     private int pendingPagesCount=0; //кол-во стр.
     private int pendingPagesCountAllTime=0;
-    private int countQueue = 0;
+    private int countQueue = 10;
     public void append(String text){append(text,"",1);}
     public void append(String text, String name){append(text,name,1);}
     public void append(String text, String name, int count){
